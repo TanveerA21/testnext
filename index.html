@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ADVANCED GYM</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <h2>ADVANCED GYM</h2>
+  <nav id="nav">
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#trainers">Trainers</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div id="menu-btn">☰</div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <canvas id="gym3d"></canvas>
+
+  <div class="hero-content">
+    <h1>Push Your Limits</h1>
+    <p>Transform your body at Mumbai's most advanced gym</p>
+    <button>Join Now</button>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">Weight Training</div>
+    <div class="card">Personal Training</div>
+    <div class="card">Cardio</div>
+    <div class="card">Diet Plans</div>
+  </div>
+</section>
+
+<!-- TRAINERS -->
+<section id="trainers" class="section dark">
+  <h2>Expert Trainers</h2>
+  <div class="cards">
+    <div class="card">Trainer 1</div>
+    <div class="card">Trainer 2</div>
+    <div class="card">Trainer 3</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>📞 +91 9876543210</p>
+  <p>📧 advancedgym@gmail.com</p>
+  <a href="https://wa.me/919876543210" class="btn">Chat on WhatsApp</a>
+
+  <iframe 
+    src="https://maps.google.com/maps?q=mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed">
+  </iframe>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
